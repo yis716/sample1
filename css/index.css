@@ -2,4 +2,15 @@
 html{font-size: 16px; color: #333;}
 a{color: #333; text-decoration: none; display: block;}
 
-header{background: #f5ead9;}
+header{background: #f5ead9; display: flex; justify-content: space-between;}
+
+header nav{
+    width: 60%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    width: 25%;
+}
